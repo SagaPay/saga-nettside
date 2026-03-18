@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagapay – Moderne betalingsløsninger for norske bedrifter</title>
+    <meta name="description" content="Sagapay er en moderne betalingsplattform som hjelper bedrifter med å ta betalt på nett og i butikk. Ingen bindingstid, ingen skjulte gebyrer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-inner">
+            <a href="#" class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="8" fill="#0B3D91"/>
+                    <path d="M8 16.5C8 12.9 10.2 10 14 10C16.2 10 17.8 11.2 18.5 12.8L16.2 14C15.8 13.2 15 12.6 14 12.6C12.2 12.6 11 14.2 11 16.5C11 18.8 12.2 20.4 14 20.4C15 20.4 15.8 19.8 16.2 19L18.5 20.2C17.8 21.8 16.2 23 14 23C10.2 23 8 20.1 8 16.5Z" fill="white"/>
+                    <rect x="19" y="10" width="3" height="13" rx="1.5" fill="white"/>
+                    <circle cx="24" cy="12" r="2" fill="#4DA3FF"/>
+                </svg>
+                <span>Sagapay</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#produkter">Produkter</a>
+                <a href="#fordeler">Fordeler</a>
+                <a href="#hvordan">Slik fungerer det</a>
+                <a href="#priser">Priser</a>
+            </div>
+            <div class="nav-actions">
+                <a href="#kontakt" class="nav-link-login">Logg inn</a>
+                <a href="#kontakt" class="btn btn-primary btn-sm">Kom i gang</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Meny">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Norges smarteste betalingsplattform</div>
+                <h1>TA BETALT.<br>ENKELT.</h1>
+                <p class="hero-subtitle">Én plattform for nettbutikk, fysisk butikk og alt imellom. Ingen bindingstid. Ingen skjulte gebyrer. Bare betaling som fungerer.</p>
+                <div class="hero-ctas">
+                    <a href="#kontakt" class="btn btn-primary btn-lg">Kom i gang gratis</a>
+                    <a href="#kontakt" class="btn btn-outline btn-lg">Kontakt oss</a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#0B3D91"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Ingen månedsavgift</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#0B3D91"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Klar på 10 minutter</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="10" fill="#0B3D91"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Lavest pris-garanti</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card card-1">
+                <div class="card-header-mini">
+                    <span class="dot green"></span>
+                    <span>Betaling godkjent</span>
+                </div>
+                <div class="card-amount">kr 1 249,00</div>
+                <div class="card-method">Visa •••• 4242</div>
+            </div>
+            <div class="hero-card card-2">
+                <div class="card-header-mini">
+                    <span class="dot blue"></span>
+                    <span>Daglig utbetaling</span>
+                </div>
+                <div class="card-amount">kr 34 892,50</div>
+                <div class="card-method">→ DNB •••• 7891</div>
+            </div>
+            <div class="hero-card card-3">
+                <div class="card-header-mini">
+                    <span class="dot purple"></span>
+                    <span>Ny ordre #1847</span>
+                </div>
+                <div class="card-amount">kr 599,00</div>
+                <div class="card-method">Nettbutikk – Tap to Pay</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="fordeler">
+        <div class="container">
+            <div class="section-header">
+                <h2>BYGGET FOR BEDRIFTER<br>SOM TENKER FREMOVER</h2>
+                <p class="section-subtitle">Alt du trenger for å ta betalt – uten alt du ikke trenger.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="12" fill="#EBF3FF"/><path d="M24 14v10l6 4" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="10" stroke="#0B3D91" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>ALLTID PÅ</h3>
+                    <p>24/7 kundestøtte som holder betalingene dine i gang, dag og natt.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="12" fill="#EBF3FF"/><path d="M16 24h16M24 16v16" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/><rect x="14" y="14" width="20" height="20" rx="4" stroke="#0B3D91" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>INGEN BINDINGSTID</h3>
+                    <p>Full frihet. Ingen kontrakter, ingen overraskelser. Avslutt når du vil.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="12" fill="#EBF3FF"/><path d="M18 20h12M18 24h12M18 28h8" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/><rect x="14" y="14" width="20" height="20" rx="3" stroke="#0B3D91" stroke-width="2.5"/><path d="M30 14v-2a2 2 0 00-2-2h-8a2 2 0 00-2 2v2" stroke="#0B3D91" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>UNIFIED COMMERCE</h3>
+                    <p>Nettbutikk, fysisk butikk og varelager – alt koblet sammen i én løsning.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect width="48" height="48" rx="12" fill="#EBF3FF"/><path d="M24 18v8l-4 2" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/><path d="M16 30l-2 4h20l-2-4" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="22" r="8" stroke="#0B3D91" stroke-width="2.5"/></svg>
+                    </div>
+                    <h3>LAVEST PRIS-GARANTI</h3>
+                    <p>Vi matcher eller slår din eksisterende avtale. Garantert.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="produkter">
+        <div class="container">
+            <div class="section-header">
+                <h2>ÉN PLATTFORM.<br>ALLE BETALINGER.</h2>
+                <p class="section-subtitle">Tre løsninger designet for å få deg betalt – uansett kanal.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-visual">
+                        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                            <rect x="20" y="15" width="80" height="90" rx="8" fill="#EBF3FF" stroke="#0B3D91" stroke-width="2"/>
+                            <rect x="30" y="30" width="60" height="40" rx="4" fill="white" stroke="#0B3D91" stroke-width="1.5"/>
+                            <rect x="36" y="36" width="20" height="4" rx="2" fill="#4DA3FF"/>
+                            <rect x="36" y="44" width="48" height="3" rx="1.5" fill="#E0E7EF"/>
+                            <rect x="36" y="51" width="36" height="3" rx="1.5" fill="#E0E7EF"/>
+                            <rect x="36" y="58" width="24" height="3" rx="1.5" fill="#E0E7EF"/>
+                            <rect x="30" y="78" width="60" height="14" rx="4" fill="#0B3D91"/>
+                            <text x="60" y="88" text-anchor="middle" fill="white" font-size="8" font-weight="600">Betal nå</text>
+                        </svg>
+                    </div>
+                    <h3>Nettbetaling</h3>
+                    <p>Integrer med WooCommerce, Magento eller bruk vår API. Enkel og sikker betaling for nettbutikken din.</p>
+                    <a href="#" class="product-link">Les mer →</a>
+                </div>
+                <div class="product-card featured">
+                    <div class="product-visual">
+                        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                            <rect x="25" y="10" width="70" height="85" rx="6" fill="#0B3D91"/>
+                            <rect x="30" y="15" width="60" height="50" rx="4" fill="white"/>
+                            <rect x="36" y="22" width="22" height="10" rx="3" fill="#E8F4E8"/>
+                            <rect x="62" y="22" width="22" height="10" rx="3" fill="#FDE8F0"/>
+                            <rect x="36" y="36" width="22" height="10" rx="3" fill="#FFF3E0"/>
+                            <rect x="62" y="36" width="22" height="10" rx="3" fill="#EBF3FF"/>
+                            <rect x="30" y="70" width="60" height="12" rx="4" fill="#4DA3FF"/>
+                            <text x="60" y="79" text-anchor="middle" fill="white" font-size="7" font-weight="600">Betal kr 98,00</text>
+                            <rect x="40" y="98" width="40" height="4" rx="2" fill="#C0C0C0"/>
+                        </svg>
+                    </div>
+                    <h3>POS-system</h3>
+                    <p>Fullt kassesystem for fysisk butikk. Håndter bordbestilling, varelager og betaling – alt på ett sted.</p>
+                    <a href="#" class="product-link">Les mer →</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-visual">
+                        <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                            <rect x="30" y="10" width="60" height="100" rx="12" fill="#1a1a1a"/>
+                            <rect x="34" y="18" width="52" height="84" rx="8" fill="white"/>
+                            <circle cx="60" cy="60" r="18" fill="#EBF3FF" stroke="#0B3D91" stroke-width="2"/>
+                            <path d="M52 60h16M60 52v16" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/>
+                            <text x="60" y="88" text-anchor="middle" fill="#0B3D91" font-size="7" font-weight="600">Tap to Pay</text>
+                            <rect x="50" y="14" width="20" height="4" rx="2" fill="#333"/>
+                        </svg>
+                    </div>
+                    <h3>Tap to Pay</h3>
+                    <p>Bruk iPhone eller Android som betalingsterminal. Ta betalt hvor som helst – ingen ekstra utstyr.</p>
+                    <a href="#" class="product-link">Les mer →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-suffix">min</div>
+                    <div class="stat-label">Onboarding-tid</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="48">0</div>
+                    <div class="stat-suffix">timer</div>
+                    <div class="stat-label">Til utbetaling</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="0">0</div>
+                    <div class="stat-suffix">kr</div>
+                    <div class="stat-label">Månedsavgift</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Prisgaranti</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Detail Section -->
+    <section class="features" id="priser">
+        <div class="container">
+            <div class="section-header">
+                <h2>TENK PÅ BUSINESS.<br>VI TAR BETALINGEN.</h2>
+                <p class="section-subtitle">Vår oppgave er å gjøre betaling til det enkleste ved å drive bedrift.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M4 16l8 8L28 8" stroke="#0B3D91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Ingen skjulte gebyrer</h4>
+                    <p>Transparente priser uten overraskelser. Du betaler kun per transaksjon.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4v12l8 4" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="16" r="12" stroke="#0B3D91" stroke-width="2.5" fill="none"/></svg>
+                    </div>
+                    <h4>Rask onboarding</h4>
+                    <p>Oppe og kjører på 5–10 minutter. Ingen komplisert oppsett.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="16" rx="3" stroke="#0B3D91" stroke-width="2.5" fill="none"/><path d="M4 14h24" stroke="#0B3D91" stroke-width="2.5"/><rect x="8" y="18" width="8" height="3" rx="1" fill="#4DA3FF"/></svg>
+                    </div>
+                    <h4>Flat rate</h4>
+                    <p>Samme lave pris uansett korttype. Enkelt og forutsigbart.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M8 28V12l8-8 8 8v16H8z" stroke="#0B3D91" stroke-width="2.5" fill="none" stroke-linejoin="round"/><rect x="13" y="20" width="6" height="8" fill="#4DA3FF" rx="1"/></svg>
+                    </div>
+                    <h4>Daglige utbetalinger</h4>
+                    <p>Få pengene dine raskt. Utbetaling innen 48 timer, hver dag.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4C9.4 4 4 9.4 4 16s5.4 12 12 12 12-5.4 12-12S22.6 4 16 4z" stroke="#0B3D91" stroke-width="2.5" fill="none"/><path d="M12 16h8M16 12v8" stroke="#0B3D91" stroke-width="2.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h4>Gavekort & klippekort</h4>
+                    <p>Bygg lojalitet med gavekort og klippekort direkte i plattformen.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M6 6h8v8H6zM18 6h8v8h-8zM6 18h8v8H6zM18 18h8v8h-8z" stroke="#0B3D91" stroke-width="2.5" fill="none" rx="2"/></svg>
+                    </div>
+                    <h4>Kundedata & innsikt</h4>
+                    <p>Lagre kundedata for raskere betaling og bedre innsikt i virksomheten.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="hvordan">
+        <div class="container">
+            <div class="section-header">
+                <h2>I GANG PÅ<br>MINUTTER</h2>
+                <p class="section-subtitle">Tre enkle steg fra registrering til din første betaling.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>REGISTRER DEG</h3>
+                    <p>Opprett konto på 5 minutter. Alt du trenger er organisasjonsnummer og bankkonto.</p>
+                </div>
+                <div class="step-connector">
+                    <svg width="40" height="2"><line x1="0" y1="1" x2="40" y2="1" stroke="#0B3D91" stroke-width="2" stroke-dasharray="4,4"/></svg>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>VELG LØSNING</h3>
+                    <p>POS for butikk, Tap to Pay på mobilen, eller nettbetaling – velg det som passer din bedrift.</p>
+                </div>
+                <div class="step-connector">
+                    <svg width="40" height="2"><line x1="0" y1="1" x2="40" y2="1" stroke="#0B3D91" stroke-width="2" stroke-dasharray="4,4"/></svg>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>TA BETALT</h3>
+                    <p>Begynn å ta imot betalinger umiddelbart. Utbetaling til din konto innen 48 timer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Marquee Section -->
+    <section class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2>FOR ALLE TYPER<br>BEDRIFTER</h2>
+                <p class="section-subtitle">Fra kafeer til klesbutikker – Sagapay fungerer for alle.</p>
+            </div>
+        </div>
+        <div class="marquee-wrapper">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>RESTAURANTER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>KAFEER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>KLESBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>BARER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>FRISØRER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>NETTBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>MATBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>TRENINGSSENTRE</span>
+                    <span class="marquee-dot">●</span>
+                    <span>RESTAURANTER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>KAFEER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>KLESBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>BARER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>FRISØRER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>NETTBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>MATBUTIKKER</span>
+                    <span class="marquee-dot">●</span>
+                    <span>TRENINGSSENTRE</span>
+                    <span class="marquee-dot">●</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="kontakt">
+        <div class="container">
+            <div class="cta-inner">
+                <div class="cta-text">
+                    <h2>KLAR FOR Å<br>KOMME I GANG?</h2>
+                    <p>Opprett konto i dag og begynn å ta betalt uten skjulte kostnader, bindingstid eller komplisert oppsett.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-white btn-lg">Kom i gang gratis</a>
+                        <a href="#" class="btn btn-outline-white btn-lg">Kontakt salg</a>
+                    </div>
+                </div>
+                <div class="cta-checklist">
+                    <div class="checklist-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="rgba(255,255,255,0.15)"/><path d="M7 12l3.5 3.5 6.5-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Ingen bindingstid</span>
+                    </div>
+                    <div class="checklist-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="rgba(255,255,255,0.15)"/><path d="M7 12l3.5 3.5 6.5-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Flat rate på alle kort</span>
+                    </div>
+                    <div class="checklist-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="rgba(255,255,255,0.15)"/><path d="M7 12l3.5 3.5 6.5-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Ingen månedsavgift</span>
+                    </div>
+                    <div class="checklist-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="rgba(255,255,255,0.15)"/><path d="M7 12l3.5 3.5 6.5-7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <span>Laget for norske bedrifter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="8" fill="#0B3D91"/>
+                            <path d="M8 16.5C8 12.9 10.2 10 14 10C16.2 10 17.8 11.2 18.5 12.8L16.2 14C15.8 13.2 15 12.6 14 12.6C12.2 12.6 11 14.2 11 16.5C11 18.8 12.2 20.4 14 20.4C15 20.4 15.8 19.8 16.2 19L18.5 20.2C17.8 21.8 16.2 23 14 23C10.2 23 8 20.1 8 16.5Z" fill="white"/>
+                            <rect x="19" y="10" width="3" height="13" rx="1.5" fill="white"/>
+                            <circle cx="24" cy="12" r="2" fill="#4DA3FF"/>
+                        </svg>
+                        <span>Sagapay</span>
+                    </a>
+                    <p class="footer-tagline">Moderne betalingsløsninger<br>for norske bedrifter.</p>
+                    <p class="footer-contact-info">+47 22 00 00 00<br>hei@sagapay.no</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Produkter</h4>
+                    <a href="#">Nettbetaling</a>
+                    <a href="#">POS-system</a>
+                    <a href="#">Tap to Pay</a>
+                    <a href="#">Gavekort</a>
+                    <a href="#">Priser</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Selskap</h4>
+                    <a href="#">Om Sagapay</a>
+                    <a href="#">Karriere</a>
+                    <a href="#">Blogg</a>
+                    <a href="#">Presse</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Hjelp</h4>
+                    <a href="#">Kundestøtte</a>
+                    <a href="#">Dokumentasjon</a>
+                    <a href="#">Status</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sagapay AS. Alle rettigheter reservert.</p>
+                <div class="footer-legal">
+                    <a href="#">Personvern</a>
+                    <a href="#">Vilkår</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
